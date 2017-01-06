@@ -1,5 +1,9 @@
 <?php
 error_reporting(0);
+########################################
+# c0ded by : alinko a.k.a shutdown57   #
+# email    : alinkokomansuby@gmail.com #
+########################################
 function a_curry($url){
 	@define('ch',curl_init());
 	curl_setopt(ch,CURLOPT_URL,$url);
